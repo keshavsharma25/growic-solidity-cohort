@@ -11,7 +11,7 @@ contract YourContract is Ownable {
         bool isValue;
     }
 
-    // address public owner;
+    address public owner;
     mapping(address => Student) studentMapper;
 
     constructor() {
