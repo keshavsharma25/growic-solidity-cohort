@@ -1,9 +1,8 @@
 pragma solidity >=0.8.0 <0.9.0;
+
 //SPDX-License-Identifier: MIT
 
-import "hardhat/console.sol";
-
-contract YourContract is Ownable {
+contract YourContract {
     struct Student {
         string studentName;
         uint256 percentage;
