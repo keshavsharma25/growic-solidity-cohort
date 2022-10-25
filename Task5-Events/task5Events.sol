@@ -72,8 +72,4 @@ contract YourContract {
     function getUserDetail() public view returns (User memory) {
         return userDetails[msg.sender];
     }
-
-    receive() external payable {}
-
-    fallback() external payable {}
 }
