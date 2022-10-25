@@ -2,7 +2,7 @@ pragma solidity >=0.8.0 <0.9.0;
 
 //SPDX-License-Identifier: MIT
 
-contract YourContract {
+contract Task1 {
     struct Student {
         string studentName;
         uint256 percentage;
